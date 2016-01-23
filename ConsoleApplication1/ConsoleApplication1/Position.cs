@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class Position
     {
-        static public void gameLoop()
+        public Position()
         {
-            GameLoop classic = new GameLoop();
 
         }
-        static void Main(string[] args)
-        {
-            gameLoop();
-        }
+
+
     }
 }

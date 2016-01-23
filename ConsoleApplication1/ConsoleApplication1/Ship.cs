@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class Ship
     {
-        static public void gameLoop()
+        public Ship()
         {
-            GameLoop classic = new GameLoop();
 
-        }
-        static void Main(string[] args)
-        {
-            gameLoop();
         }
     }
 }
